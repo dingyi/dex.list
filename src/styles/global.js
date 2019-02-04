@@ -16,6 +16,21 @@ const GlobalStyles = createGlobalStyle`
          url('/fonts/MaisonNeue-Bold.ttf') format('truetype');
   }
 
+  @font-face {
+    font-family: 'Inter UI';
+    font-style:  normal;
+    font-weight: 400;
+    src: url("/fonts/Inter-UI-Regular.woff2") format("woff2"),
+         url("/fonts/Inter-UI-Regular.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter UI';
+    font-style:  normal;
+    font-weight: 700;
+    src: url("/fonts/Inter-UI-Bold.woff2") format("woff2"),
+         url("/fonts/Inter-UI-Bold.woff") format("woff");
+  }
+
   html {
     font-family: sans-serif;
     -ms-text-size-adjust: 100%;
@@ -49,7 +64,7 @@ const GlobalStyles = createGlobalStyle`
     color: #6d434c;
     background: #fdf3f6;
     min-height: 100vh;
-    font-family: MaisonNeue-Light, -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+    font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
     word-wrap: break-word;
     font-kerning: normal;
     font-feature-settings: "kern", "liga", "clig", "calt";

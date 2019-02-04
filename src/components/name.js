@@ -5,9 +5,8 @@ const Name = props =>
   <Heading
     as='h3'
     color='#350909'
-    fontFamily='MaisonNeue-Bold'
     fontSize={['14px', '14px', '14px', '14px', '16px']}
-    fontWeight='bold'
+    fontWeight='700'
     py='2px'
     css={{
       lineHeight: '1',

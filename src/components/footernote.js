@@ -6,6 +6,9 @@ const Company = styled.div`
   font-size: 8px;
   padding-top: 16px;
   padding-bottom: 16px;
+  .author {
+    padding-left: 8px;
+  }
   a {
     font-weight: bold;
     color: #6d434c;
@@ -26,6 +29,7 @@ const FooterNote = () => (
     A <a href="https://dex.group" target="_blank" rel="noopener noreferrer">
         <span className='de'>DE</span><span className='x'>X</span> Group
       </a> project.
+    <span className='author'>Design & Code by <a href='https://twitter.com/dingyi'>@dingyi</a></span>
   </Company>
 )
 

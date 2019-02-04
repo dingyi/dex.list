@@ -7,7 +7,8 @@ import { Link as GLink } from 'gatsby'
 const NavLink = styled(Link)({
   display: 'block',
   textDecoration: 'none',
-  fontFamily: 'MaisonNeue-Bold',
+  lineHeight: '1.8',
+  fontWeight: '700',
 }, props => ({
   '&[aria-current]': {
     color: themeGet('colors.pink')(props)
@@ -16,7 +17,6 @@ const NavLink = styled(Link)({
 
 NavLink.defaultProps = {
   fontSize: 11,
-  py: 1,
   color: '#6d434c',
 }
 
