@@ -16,7 +16,7 @@ const NavLink = styled(Link)({
 }))
 
 NavLink.defaultProps = {
-  fontSize: 11,
+  fontSize: 12,
   color: '#6d434c',
 }
 
