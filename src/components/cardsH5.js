@@ -22,7 +22,7 @@ const CardsH5 = () => (
       >
         <Item>
           <Flex>
-            <Avatar src={props.logo} />
+            <Avatar alt={props.name} src={props.logo} />
             <Box pl={2}>
               <Name>
                 {props.name}

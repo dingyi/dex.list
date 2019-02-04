@@ -5,12 +5,8 @@ const Price = props =>
   <Box
     as='span'
     color='#F7417A'
-    fontSize='9px'
+    fontSize='10px'
     pl={2}
-    css={{
-      verticalAlign: 'middle',
-      fontFamily: 'MaisonNeue-Light'
-    }}
     {...props}
   />
 

@@ -75,7 +75,8 @@ module.exports = {
         icon: `src/images${config.siteLogo}`
       },
     },
-    'gatsby-plugin-offline',
+    // 'gatsby-plugin-offline',
+    `gatsby-plugin-remove-serviceworker`,
     'gatsby-plugin-netlify',
   ],
 }

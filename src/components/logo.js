@@ -12,6 +12,7 @@ const Logo = () => (
   >
     <Link
       to='/'
+      aria-label='Submit'
       css={{
         display: 'table-cell'
       }}
