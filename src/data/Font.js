@@ -154,6 +154,11 @@ const Font = [
     logo: '/images/font/hankendesignco.png',
     slogan: 'Free and premium fonts',
     link: 'https://hanken.co/'
+  }, {
+    name: 'Inter font family',
+    logo: '/images/font/Inter.png',
+    slogan: 'Free font designed for user interfaces',
+    link: 'https://rsms.me/inter/'
   }
 ]
 

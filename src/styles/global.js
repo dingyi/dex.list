@@ -3,32 +3,25 @@ import { createGlobalStyle } from 'styled-components'
 const GlobalStyles = createGlobalStyle`
 
   @font-face {
-    font-family: MaisonNeue-Light;
-    src: url('/fonts/MaisonNeue-Light.woff2') format('woff2'),
-         url('/fonts/MaisonNeue-Light.woff') format('woff'),
-         url('/fonts/MaisonNeue-Light.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: MaisonNeue-Bold;
-    src: url('/fonts/MaisonNeue-Bold.eot') format('eot'),
-         url('/fonts/MaisonNeue-Bold.woff') format('woff'),
-         url('/fonts/MaisonNeue-Bold.ttf') format('truetype');
-  }
-
-  @font-face {
-    font-family: 'Inter UI';
+    font-family: 'Inter';
     font-style:  normal;
     font-weight: 400;
-    src: url("/fonts/Inter-UI-Regular.woff2") format("woff2"),
-         url("/fonts/Inter-UI-Regular.woff") format("woff");
+    src: url("/fonts/Inter-Regular.woff2") format("woff2"),
+         url("/fonts/Inter-Regular.woff") format("woff");
   }
   @font-face {
-    font-family: 'Inter UI';
+    font-family: 'Inter';
+    font-style:  normal;
+    font-weight: 500;
+    src: url("/fonts/Inter-Medium.woff2") format("woff2"),
+         url("/fonts/Inter-Medium.woff") format("woff");
+  }
+  @font-face {
+    font-family: 'Inter';
     font-style:  normal;
     font-weight: 700;
-    src: url("/fonts/Inter-UI-Bold.woff2") format("woff2"),
-         url("/fonts/Inter-UI-Bold.woff") format("woff");
+    src: url("/fonts/Inter-Bold.woff2") format("woff2"),
+         url("/fonts/Inter-Bold.woff") format("woff");
   }
 
   html {
@@ -64,7 +57,7 @@ const GlobalStyles = createGlobalStyle`
     color: #6d434c;
     background: #fdf3f6;
     min-height: 100vh;
-    font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', 'Source Han Sans SC', 'Noto Sans CJK SC', 'WenQuanYi Micro Hei', sans-serif;
     word-wrap: break-word;
     font-kerning: normal;
     font-feature-settings: "kern", "liga", "clig", "calt";

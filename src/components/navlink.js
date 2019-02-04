@@ -8,7 +8,7 @@ const NavLink = styled(Link)({
   display: 'block',
   textDecoration: 'none',
   lineHeight: '1.8',
-  fontWeight: '700',
+  fontWeight: '500',
 }, props => ({
   '&[aria-current]': {
     color: themeGet('colors.pink')(props)
