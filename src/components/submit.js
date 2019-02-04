@@ -30,11 +30,6 @@ const Submit = () => (
       target="_blank"
       rel="noopener noreferrer"
       color='#fff'
-      css={{
-        '&:hover': {
-          color: '#F7417A'
-        }
-      }}
     >
       Submit
     </SubmitButton>

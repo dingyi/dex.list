@@ -22,7 +22,7 @@ const initialMQ = typeof window !== 'undefined'
 
 class SidebarState extends React.Component {
   state = {
-    open: false,
+    open: true,
     docked: initialMQ.matches
   }
 
