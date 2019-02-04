@@ -19,6 +19,7 @@
     "gatsby-plugin-robots-txt": "^1.4.0",
     "gatsby-plugin-sharp": "^2.0.20",
     "gatsby-plugin-styled-components": "^3.0.5",
+    "gatsby-plugin-subfont": "^1.0.3",
     "gatsby-plugin-transition-link": "^1.4.7",
     "gatsby-source-filesystem": "^2.0.20",
     "gatsby-transformer-sharp": "^2.1.13",

@@ -31,7 +31,7 @@ class SidebarState extends React.Component {
   handleMedia = () => {
     this.setState({
       docked: this.media.matches,
-      open: false
+      open: true
     })
   }
 

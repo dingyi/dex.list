@@ -16,6 +16,7 @@ const SubmitButton = styled(Link)`
   right: 12px;
   :hover {
     background: #e4346b;
+    color: #fff;
     box-shadow: none;
   }
   @media (max-width: 480px) {
