@@ -56,8 +56,7 @@ const Footer = () => (
       alignItems='center'
     >
       <Copyright>
-        © {new Date().getFullYear()}{" "} - DEX
-        <span>Design & Code by <a href='https://twitter.com/dingyi'>@dingyi</a></span>
+        © {new Date().getFullYear()}{" "} - DEX.List
       </Copyright>
       <Box>
         All logos© of their respective owners.

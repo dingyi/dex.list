@@ -143,6 +143,8 @@ const GlobalStyles = createGlobalStyle`
 
   svg:not(:root) {
     overflow: hidden;
+    display: block;
+    margin: auto;
   }
 
   figure {
@@ -174,60 +176,6 @@ const GlobalStyles = createGlobalStyle`
     border: none;
     outline: none;
     background: transparent;
-  }
-
-  select {
-    appearance: none;
-    border: none;
-    background-color: transparent;
-    width: 100%;
-
-    &::-ms-expand {
-      display: none;
-    }
-
-    option {
-      color: #262626;
-    }
-  }
-
-  [type=checkbox], [type=radio] {
-    box-sizing: border-box;
-    padding: 0;
-  }
-
-  [type=search] {
-    -webkit-appearance: textfield;
-    outline-offset: -2px;
-  }
-
-  [type=search]::-webkit-search-cancel-button, [type=search]  ::-webkit-search-decoration {
-    -webkit-appearance: none;
-  }
-
-  input:-internal-autofill-previewed,
-  input:-internal-autofill-selected,
-  textarea:-internal-autofill-previewed,
-  textarea:-internal-autofill-selected,
-  select:-internal-autofill-previewed,
-  select:-internal-autofill-selected {
-    background-color: rgba(255, 255, 255, .6) !important;
-    background-image: none !important;
-    color: rgb(0, 0, 0) !important;
-  }
-
-  input:-webkit-autofill,
-  input:-webkit-autofill:hover,
-  input:-webkit-autofill:focus
-  textarea:-webkit-autofill,
-  textarea:-webkit-autofill:hover
-  textarea:-webkit-autofill:focus,
-  select:-webkit-autofill,
-  select:-webkit-autofill:hover,
-  select:-webkit-autofill:focus {
-    -webkit-text-fill-color: #fff;
-    box-shadow: 0 0 0px 1000px #000 inset;
-    transition: background-color 5000s ease-in-out 0s;
   }
 
   img {
@@ -318,7 +266,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   @media (min-width: 40em) {
-    header h1 {
+    header .logo {
       opacity: 0;
       visibility: hidden;
     }

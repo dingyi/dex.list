@@ -1,16 +1,24 @@
 import React from 'react'
-import { Heading } from 'rebass'
+import { Box } from 'rebass'
 import { Link } from 'gatsby'
 
 const Logo = () => (
-  <Heading
-    as='h1'
-    py={10}
+  <Box
+    className='logo'
+    py={15}
+    css={{
+      display: 'inline-block'
+    }}
   >
-    <Link to='/'>
+    <Link
+      to='/'
+      css={{
+        display: 'table-cell'
+      }}
+    >
       <LogoIcon />
     </Link>
-  </Heading>
+  </Box>
 )
 
 export default Logo

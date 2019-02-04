@@ -38,12 +38,6 @@ class SidebarState extends React.Component {
   componentDidMount () {
     this.media = window.matchMedia(breakpoint)
     this.media.addListener(this.handleMedia)
-
-    // const H = new Highway.Core({
-    //   transitions: {
-    //     default: Fade
-    //   }
-    // })
   }
 
   componentWillUnmount () {
@@ -60,8 +54,8 @@ class SidebarState extends React.Component {
 
 const MenuButton = styled.button({
   position: 'fixed',
-  top: '12px',
-  left: '8px',
+  top: '15px',
+  left: '12px',
   appearance: 'none',
   margin: 0,
   padding: 0,
@@ -96,11 +90,7 @@ const Nav = (props) => (
             contentClassName={'links'}
             styles={{
               sidebar: {
-                zIndex: "99",
-                overflowY: 'scroll'
-              },
-              content: {
-                overflowY: 'scroll'
+                zIndex: "99"
               },
               overlay: {
                 zIndex: "2"

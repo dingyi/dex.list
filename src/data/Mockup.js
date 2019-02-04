@@ -16,7 +16,7 @@ const Mockup = [
     link: 'https://cleanmock.com/'
   }, {
     name: 'Design Camera',
-    logo: '/images/tool/designcamera.png',
+    logo: '/images/mockup/designcamera.png',
     slogan: '3D mockups in 3 seconds',
     link: 'https://rotato.xyz/'
   }, {
