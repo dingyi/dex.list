@@ -22,7 +22,7 @@ const initialMQ = typeof window !== 'undefined'
 
 class SidebarState extends React.Component {
   state = {
-    open: true,
+    open: false,
     docked: initialMQ.matches
   }
 
@@ -37,6 +37,7 @@ class SidebarState extends React.Component {
 
   componentDidMount () {
     this.media = window.matchMedia(breakpoint)
+    this.handleMedia()
     this.media.addListener(this.handleMedia)
   }
 
@@ -54,7 +55,7 @@ class SidebarState extends React.Component {
 
 const MenuButton = styled.button({
   position: 'fixed',
-  top: '15px',
+  top: '12px',
   left: '12px',
   appearance: 'none',
   margin: 0,

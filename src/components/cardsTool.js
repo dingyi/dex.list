@@ -14,7 +14,7 @@ const CardsTool = () => (
   <>
   <Section>
     <Box p={2} width={4/4}>
-      <Topic>Design Tools</Topic>
+      <Topic>Design Tool</Topic>
     </Box>
     {Tool.map(props => (
       <Card
