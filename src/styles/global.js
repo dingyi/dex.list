@@ -14,14 +14,6 @@ const GlobalStyles = createGlobalStyle`
     font-family: 'Inter';
     font-display: auto;
     font-style:  normal;
-    font-weight: 500;
-    src: url("/fonts/Inter-Medium.woff2") format("woff2"),
-         url("/fonts/Inter-Medium.woff") format("woff");
-  }
-  @font-face {
-    font-family: 'Inter';
-    font-display: auto;
-    font-style:  normal;
     font-weight: 700;
     src: url("/fonts/Inter-Bold.woff2") format("woff2"),
          url("/fonts/Inter-Bold.woff") format("woff");

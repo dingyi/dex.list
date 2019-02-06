@@ -1,5 +1,10 @@
 const CourseVideo = [
   {
+    name: 'Blocs Master',
+    logo: '/images/coursevideo/BlocsMaster.png',
+    slogan: 'Video Courses for Blocs',
+    link: 'https://blocsmaster.com/'
+  }, {
     name: 'Figma Tutorials',
     logo: '/images/coursevideo/Figma.png',
     slogan: 'Figma course on Youtube',
