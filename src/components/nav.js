@@ -31,7 +31,7 @@ class SidebarState extends React.Component {
   handleMedia = () => {
     this.setState({
       docked: this.media.matches,
-      open: true
+      open: false
     })
   }
 
@@ -108,7 +108,7 @@ const Nav = (props) => (
                 }}
               >
                 <Logo />
-                <Box pt={24}>
+                <Box pt={3}>
                 {site.siteMetadata.navigation.map(({ text, href }) => (
                   <NavLink
                     key={href}

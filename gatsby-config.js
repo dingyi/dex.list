@@ -16,7 +16,7 @@ module.exports = {
       { text: 'Agency', href: '/agency' },
       { text: 'Background', href: '/background' },
       { text: 'Color', href: '/color' },
-      { text: 'Conference', href: '/conf' },
+      { text: 'Conference', href: '/conference' },
       { text: 'Design System', href: '/designsystem' },
       { text: 'Design Tool', href: '/tool' },
       { text: 'Font', href: '/font' },
@@ -45,17 +45,18 @@ module.exports = {
   plugins: [
     'gatsby-plugin-styled-components',
     'gatsby-plugin-react-helmet',
-    `gatsby-plugin-subfont`,
-    //'gatsby-plugin-robots-txt',
+    'gatsby-plugin-subfont',
+    'gatsby-plugin-robots-txt',
+    'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
-    // 'gatsby-plugin-favicon',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
+        name: `data`,
+        path: `./src/data/`,
       },
     },
+    'gatsby-transformer-yaml',
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
@@ -73,7 +74,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: 'minimal-ui',
-        icon: `src/images${config.siteLogo}`
+        icon: `static/images${config.siteLogo}`
       },
     },
     'gatsby-plugin-offline',
