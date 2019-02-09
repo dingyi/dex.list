@@ -73,7 +73,7 @@ module.exports = {
         start_url: '/',
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
-        display: 'minimal-ui',
+        display: "standalone",
         icon: `static/images${config.siteLogo}`
       },
     },

@@ -25,7 +25,7 @@ const IndexPage = ({ data }) => {
         const url = `/${node.id}`
         return (
           <Section key={node.id}>
-            <Topic>{node.id}</Topic>
+            <Topic>{node.title}</Topic>
             {items.slice(0, 24).map(item => {
               return (
               <Card
