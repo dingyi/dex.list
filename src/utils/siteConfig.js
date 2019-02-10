@@ -18,7 +18,7 @@ module.exports = {
   shareImage: '/static/images/share.jpg',
   shareImageWidth: 900,
   shareImageHeight: 600,
-  siteLogo: '/static/images/favicon.png',
+  siteLogo: '/favicon.png',
   backgroundColor: '#fdf3f6',
   themeColor: '#F7417A',
   copyright: 'Copyright © 2019 DEX Group Inc',

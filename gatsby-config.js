@@ -65,6 +65,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/static/images/`,
+      },
+    },
+    {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: config.siteTitle,
@@ -74,7 +81,7 @@ module.exports = {
         background_color: config.backgroundColor,
         theme_color: config.themeColor,
         display: "standalone",
-        icon: `${config.siteLogo}`
+        icon: `static/images${config.siteLogo}`
       },
     },
     'gatsby-plugin-sitemap',
