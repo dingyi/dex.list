@@ -15,6 +15,17 @@ import Price from '../components/tagsPrice'
 import Location from '../components/tagsLocation'
 import Viewall from '../components/viewall'
 
+function shuffle(array) {
+  let i = array.length - 1;
+  for (; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    const temp = array[i];
+    array[i] = array[j];
+    array[j] = temp;
+  }
+  return array;
+}
+
 const IndexPage = ({ data }) => {
   const cards = data.allListYaml.edges
   return (
@@ -22,11 +33,12 @@ const IndexPage = ({ data }) => {
       <SEO title='' keywords={[`bookmarks`, `design`, `all-in-one`]} />
       {cards.map(({ node }) => {
         const items = node.item
+        const shuffledItems = shuffle(items)
         const url = `/${node.id}`
         return (
           <Section key={node.id}>
             <Topic>{node.title}</Topic>
-            {items.slice(0, 24).map(item => {
+            {shuffledItems.slice(0, 24).map(item => {
               return (
               <Card
                 key={item.link}
