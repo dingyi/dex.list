@@ -20,7 +20,7 @@ const ListPage = ({data}) => {
     <Layout>
       <SEO title={page.title} />
       <Section>
-        <Topic>{page.id}</Topic>
+        <Topic>{page.title}</Topic>
         {page.item.map(props => (
           <Card
             key={props.link}
