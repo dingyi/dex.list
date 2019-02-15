@@ -26,6 +26,11 @@
       location: '🇲🇽 🇺🇸 🇯🇵'
       slogan: 'A multidisciplinary studio'
       link: 'https://www.anagrama.com/'
+    - name: 'Anton & Irene'
+      logo: './images/agency/AntonIrene.png'
+      location: '🇺🇸'
+      slogan: 'Design agency in New York'
+      link: 'http://www.antonandirene.com/'
     - name: 'ARK'
       logo: './images/agency/ARK.png'
       location: '🇨🇳'
@@ -476,6 +481,11 @@
       location: '🇺🇸'
       slogan: 'Creative digital design agency'
       link: 'http://ustwo.com'
+    - name: 'Versett'
+      logo: './images/agency/Versett.png'
+      location: '🇺🇸 🇨🇦'
+      slogan: 'A Product Design and Engineering Consultancy'
+      link: 'https://versett.com/'
     - name: 'Viget'
       logo: './images/agency/Viget.png'
       location: '🇺🇸 🇬🇧'
@@ -516,6 +526,18 @@
       location: '🇺🇸'
       slogan: 'A creative studio founded in NYC'
       link: 'https://zero.nyc/'
+
+- id: article
+  title: Articles
+  item:
+    - name: 'Inclusive Components'
+      logo: './images/article/InclusiveComponents.png'
+      slogan: 'A blog trying to be a pattern library'
+      link: 'https://inclusive-components.design/'
+    - name: 'Playbook'
+      logo: './images/article/Playbook.png'
+      slogan: 'Achieve your career goals'
+      link: 'https://askplaybook.com/'
 
 - id: background
   title: Background
@@ -635,6 +657,10 @@
 - id: conference
   title: Conference
   item:
+    - name: '99U Conference'
+      logo: './images/conf/99UConference.png'
+      slogan: '99U Conference by Adobe'
+      link: 'https://conference.99u.com/'
     - name: 'Awwwards Conference'
       logo: './images/conf/awwwardsconf.png'
       slogan: 'Digital Thinkers Conference'
@@ -1287,10 +1313,6 @@
       logo: './images/news/panda.png'
       slogan: 'Daily news and inspiration for designers'
       link: 'https://usepanda.com/app/'
-    - name: 'Playbook'
-      logo: './images/news/Playbook.png'
-      slogan: 'Achieve your career goals'
-      link: 'https://askplaybook.com/'
     - name: 'Smashing Magazine'
       logo: './images/news/smashingmagazine.png'
       slogan: 'For Web Designers And Developers'
@@ -1442,7 +1464,7 @@
   item:
     - name: 'Anyway FM'
       logo: './images/podcast/anyway.png'
-      slogan: 'Design podcast by JJ Ying & Leon Gao '
+      slogan: 'Design podcast by JJ Ying & Leon Gao'
       link: 'https://anyway.fm/'
     - name: 'Design Details'
       logo: './images/podcast/designdetails.png'
@@ -1496,6 +1518,22 @@
       logo: './images/podcast/yineng.png'
       slogan: '将全宇宙设计师的故事讲给你听'
       link: 'https://www.yineng.fm/'
+
+- id: portfolio
+  title: Portfolio
+  item:
+    - name: 'Semplice'
+      logo: './images/portfolio/Semplice.png'
+      slogan: 'Designers Best Kept Secret'
+      link: 'https://www.semplice.com/'
+    - name: 'UXfolio'
+      logo: './images/portfolio/UXfolio.png'
+      slogan: 'UX portfolio creator site'
+      link: 'https://www.uxfol.io/'
+    - name: 'David Pacheco'
+      logo: './images/portfolio/DavidPacheco.png'
+      slogan: 'A product designer at Apple'
+      link: 'http://www.davidpacheco.co/'
 
 - id: prototype
   title: Prototype
@@ -1570,8 +1608,8 @@
       link: 'https://www.figmafreebies.com/'
     - name: 'Frames'
       logo: './images/resource/Frames.png'
-      slogan: '一家来自纽约布鲁克林的设计工作室'
-      link: 'http://alright.studio/'
+      slogan: 'Frames for Sketch'
+      link: 'https://framesforsketch.com/'
     - name: 'FreebiesUI'
       logo: './images/resource/FreebiesUI.png'
       slogan: 'Free hand-picked UI resources for designers'
@@ -1652,6 +1690,10 @@
       logo: './images/sound/UISounds.png'
       slogan: 'Sound design by example'
       link: 'https://uisounds.prototypr.io/'
+    - name: 'WOWA'
+      logo: './images/sound/WOWA.png'
+      slogan: 'Free do whatever you want Music'
+      link: 'https://wowa.me/'
 
 - id: team
   title: Team
@@ -1720,6 +1762,14 @@
       logo: './images/team/Lyft.png'
       slogan: 'Lyft Design Team'
       link: 'https://design.lyft.com/'
+    - name: 'ISUX'
+      logo: './images/team/ISUX.png'
+      slogan: 'Tencent ISUX Design'
+      link: 'https://isux.tencent.com/'
+    - name: '蚂蚁体验科技'
+      logo: './images/team/antdesign.png'
+      slogan: 'Ant Design Team'
+      link: 'https://xcloud.alipay.com/'
 
 - id: tool
   title: Design Tool
@@ -1750,12 +1800,12 @@
       link: 'https://www.sketchapp.com/'
     - name: 'Invision Studio'
       logo: './images/tool/invisionstudio.png'
-      slogan: '一家来自纽约布鲁克林的设计工作室'
+      slogan: 'Screen Design. Redesigned'
       link: 'https://www.invisionapp.com/studio'
     - name: 'Pixelmator'
       price: '$99'
       logo: './images/tool/pixelmator.png'
-      slogan: '一家来自纽约布鲁克林的设计工作室'
+      slogan: 'Professional image editing tools'
       link: 'https://pixelmator.com/'
     - name: 'Procreate'
       price: '$9.99'
@@ -1813,6 +1863,10 @@
       logo: './images/tool/dotgrid.png'
       slogan: 'A simple vector drawing app'
       link: 'https://hundredrabbits.itch.io/dotgrid'
+    - name: 'Brandy'
+      logo: './images/tool/Brandy.png'
+      slogan: 'A brand assets manager'
+      link: 'https://getbrandy.io'
 
 - id: videocourse
   title: Video Course
