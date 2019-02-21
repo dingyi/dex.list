@@ -6,7 +6,7 @@
   "author": "Ding <dingyimac@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.10.0",
-    "gatsby": "^2.1.9",
+    "gatsby": "^2.1.13",
     "gatsby-image": "^2.0.29",
     "gatsby-plugin-favicon": "^3.1.5",
     "gatsby-plugin-google-analytics": "^2.0.14",
@@ -20,7 +20,7 @@
     "gatsby-plugin-styled-components": "^3.0.6",
     "gatsby-plugin-subfont": "^1.0.3",
     "gatsby-plugin-transition-link": "^1.5.1",
-    "gatsby-source-filesystem": "^2.0.20",
+    "gatsby-source-filesystem": "^2.0.21",
     "gatsby-transformer-sharp": "^2.1.14",
     "gatsby-transformer-yaml": "^2.1.8",
     "lodash": "^4.17.11",
