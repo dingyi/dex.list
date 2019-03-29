@@ -86,7 +86,7 @@ module.exports = {
         icon: `static/images${config.siteLogo}`
       },
     },
-    'gatsby-plugin-sitemap',
+    `gatsby-plugin-advanced-sitemap`,
     'gatsby-plugin-offline',
     'gatsby-plugin-netlify',
   ],
