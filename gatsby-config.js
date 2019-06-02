@@ -22,6 +22,7 @@ module.exports = {
       { text: 'Design Tools', href: '/tool' },
       { text: 'Fonts', href: '/font' },
       { text: 'Gradients', href: '/gradient' },
+      { text: 'Handoff', href: '/handoff' },
       { text: 'Icons', href: '/icon' },
       { text: 'Illustrations', href: '/illustration' },
       { text: 'Inspirations', href: '/inspiration' },
