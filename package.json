@@ -8,7 +8,7 @@
     "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.8.2",
     "gatsby-image": "^2.1.2",
-    "gatsby-plugin-advanced-sitemap": "^1.0.5",
+    "gatsby-plugin-advanced-sitemap": "^1.0.6",
     "gatsby-plugin-amplitude-analytics": "^1.5.0",
     "gatsby-plugin-dark-mode": "^1.1.0",
     "gatsby-plugin-favicon": "^3.1.6",
@@ -34,7 +34,7 @@
     "rebass": "^3.1.1",
     "reline": "^1.0.0-beta.3",
     "slug": "^0.9.4",
-    "styled-components": "^4.2.0"
+    "styled-components": "^4.2.1"
   },
   "keywords": [
     "gatsby"
