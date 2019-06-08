@@ -13,6 +13,7 @@ module.exports = {
     image: config.Image,
     navigation: [
       { text: 'All', href: '/' },
+      { text: '3D', href: '3D' },
       { text: 'Agency', href: '/agency' },
       { text: 'Articles', href: '/article' },
       { text: 'Backgrounds', href: '/background' },

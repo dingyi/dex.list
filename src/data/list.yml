@@ -1,3 +1,11 @@
+- id: 3d
+  title: 3D
+  item:
+    - name: 'Vectary'
+      logo: './images/3d/Vectary.png'
+      slogan: 'The Easiest Online 3D Design Software'
+      link: 'https://www.vectary.com/'
+
 - id: agency
   title: Agency
   item:
@@ -973,6 +981,10 @@
       logo: './images/designsystem/DesignSystems.png'
       slogan: 'A Figma publication for design systems'
       link: 'https://www.designsystems.com/'
+    - name: 'Diez'
+      logo: './images/designsystem/Diez.png'
+      slogan: 'Cross-platform design system framework'
+      link: 'https://diez.org/'
     - name: 'Duolingo design guidelines'
       logo: './images/designsystem/Duolingo.png'
       slogan: 'Design System by Duolingo'
@@ -2025,6 +2037,10 @@
       logo: './images/resource/medialoot.png'
       slogan: 'Free & Premium Design Resources'
       link: 'https://medialoot.com/'
+    - name: 'Search by Muzli'
+      logo: './images/resource/Muzli.png'
+      slogan: 'Search by Muzli'
+      link: 'https://search.muz.li/'
     - name: 'OurSketch'
       logo: './images/resource/OurSketch.png'
       slogan: '一个专注于 Sketch 分享交流的互动平台'
@@ -2265,6 +2281,11 @@
       logo: './images/tool/Miro.png'
       slogan: 'Online whiteboard for teams'
       link: 'https://miro.com/'
+    - name: 'Amadinero'
+      price: '$19.99'
+      logo: './images/tool/Amadinero.png'
+      slogan: 'Vector Graphic Design Software for Mac'
+      link: 'https://amadine.com/'
 
 - id: videocourse
   title: Video Course
