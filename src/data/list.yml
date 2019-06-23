@@ -49,6 +49,11 @@
       location: '🇲🇽 🇺🇸 🇯🇵'
       slogan: 'A multidisciplinary studio'
       link: 'https://www.anagrama.com/'
+    - name: 'Animal'
+      logo: './images/agency/Animal.png'
+      location: '🇸🇪'
+      slogan: 'A house of creativity based in Stockholm'
+      link: 'https://animal.cc/'
     - name: 'Anton & Irene'
       logo: './images/agency/AntonIrene.png'
       location: '🇺🇸'
@@ -669,6 +674,11 @@
       location: '🇨🇦 🇧🇷'
       slogan: 'Design & Animation'
       link: 'https://tendril.ca/'
+    - name: 'The Couch'
+      logo: './images/agency/TheCouch.png'
+      location: '🇺🇸'
+      slogan: 'A Brooklyn studio'
+      link: 'https://thecouch.nyc/'
     - name: 'This Also'
       logo: './images/agency/thisalso.png'
       location: '🇺🇸'
@@ -829,6 +839,14 @@
       logo: './images/background/svgbackgrounds.png'
       slogan: 'SVG-based repeating patterns'
       link: 'https://www.svgbackgrounds.com/'
+
+- id: book
+  title: Books
+  item:
+    - name: 'Smashing Magazine'
+      logo: './images/book/smashingmagazine.png'
+      slogan: 'Charming Printed Books on Front-End, UX, A11y'
+      link: 'https://www.smashingmagazine.com/printed-books/'
 
 - id: color
   title: Color
@@ -2389,6 +2407,10 @@
       logo: './images/tool/Amadine.png'
       slogan: 'Vector Graphic Design Software for Mac'
       link: 'https://amadine.com/'
+    - name: 'Photopea'
+      logo: './images/tool/Photopea.png'
+      slogan: 'Online Image Editor'
+      link: 'https://www.photopea.com/'
 
 - id: videocourse
   title: Video Course
@@ -2417,6 +2439,10 @@
       logo: './images/web/blocs.png'
       slogan: 'powerful visual web design tool'
       link: 'https://blocsapp.com/'
+    - name: 'Code my UI'
+      logo: './images/web/Cruip.png'
+      slogan: 'Web Design & UI Inspiration with Code Snippets'
+      link: 'https://codemyui.com/'
     - name: 'Cruip'
       logo: './images/web/Cruip.png'
       slogan: 'Free HTML landing page templates'

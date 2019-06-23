@@ -13,10 +13,11 @@ module.exports = {
     image: config.Image,
     navigation: [
       { text: 'All', href: '/' },
-      { text: '3D', href: '3D' },
+      { text: '3D', href: '/3d' },
       { text: 'Agency', href: '/agency' },
       { text: 'Articles', href: '/article' },
       { text: 'Backgrounds', href: '/background' },
+      { text: 'Books', href: '/book' },
       { text: 'Colors', href: '/color' },
       { text: 'Conferences', href: '/conference' },
       { text: 'Design System', href: '/designsystem' },
