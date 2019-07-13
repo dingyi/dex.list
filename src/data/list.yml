@@ -309,6 +309,11 @@
       location: '🇫🇷'
       slogan: 'A creative digital production company'
       link: 'https://immersive-g.com/'
+    - name: 'Incentro'
+      logo: './images/agency/Incentro.png'
+      location: '🇳🇱'
+      slogan: 'Let us embrace change'
+      link: 'https://www.incentro.com/en'
     - name: 'Jam3'
       logo: './images/agency/Jam3.png'
       location: '🇨🇦 🇺🇸 🇺🇾'
@@ -349,6 +354,11 @@
       location: '🇫🇷'
       slogan: 'WebGL Development & Creative Services'
       link: 'https://www.littleworkshop.fr/'
+    - name: 'loof design'
+      logo: './images/agency/loof.png'
+      location: '🇨🇳'
+      slogan: 'We apply creative visions to domains beyond'
+      link: 'https://loof.design/'
     - name: 'Lunar Saloon'
       logo: './images/agency/LunarSaloon.png'
       location: '🇺🇸'
@@ -862,6 +872,18 @@
       logo: './images/book/smashingmagazine.png'
       slogan: 'Charming Printed Books on Front-End, UX, A11y'
       link: 'https://www.smashingmagazine.com/printed-books/'
+
+- id: collection
+  title: Collections
+  item:
+    - name: 'Blacks Who Design'
+      logo: './images/collection/BlacksWhoDesign.png'
+      slogan: 'All of the inspiring Black designers'
+      link: 'https://blackswho.design/'
+    - name: 'Women Who Design'
+      logo: './images/collection/WomenWhoDesign.png'
+      slogan: 'All of the inspiring women designers'
+      link: 'https://womenwho.design/'
 
 - id: color
   title: Color
@@ -1957,6 +1979,10 @@
       logo: './images/photo/zoommy.png'
       slogan: 'All free stock photos in one place'
       link: 'https://zoommyapp.com/'
+    - name: '稿定设计'
+      logo: './images/photo/稿定设计.png'
+      slogan: '多场景商业视觉在线设计平台'
+      link: 'https://www.gaoding.com/'
 
 - id: podcast
   title: Podcast

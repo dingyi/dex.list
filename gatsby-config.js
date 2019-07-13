@@ -19,6 +19,7 @@ module.exports = {
       { text: 'Backgrounds', href: '/background' },
       { text: 'Books', href: '/book' },
       { text: 'Colors', href: '/color' },
+      { text: 'Collections', href: '/collection' },
       { text: 'Conferences', href: '/conference' },
       { text: 'Design System', href: '/designsystem' },
       { text: 'Design Tools', href: '/tool' },
