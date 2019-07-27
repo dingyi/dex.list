@@ -1,6 +1,5 @@
 const _ = require(`lodash`)
 const path = require(`path`)
-const slug = require(`slug`)
 
 exports.onCreateWebpackConfig = ({ actions }) => {
   actions.setWebpackConfig({
@@ -39,7 +38,7 @@ exports.createPages = ({ graphql, actions }) => {
 
     _.each(Lists, edge => {
       createPage({
-        path: `/${slug(edge.node.id)}/`,
+        path: edge.node.id,
         component: listTemplate,
         context: {
           id: edge.node.id,
