@@ -4,11 +4,11 @@ import { Flex } from 'rebass'
 const Section = props =>
   <Flex
     as='section'
-    flexWrap='wrap'
-    mx='auto'
-    pb={3}
-    css={{
-      maxWidth: '1056'
+    sx={{
+      maxWidth: '1056',
+      flexWrap: 'wrap',
+      mx: 'auto',
+      pb: 3
     }}
     {...props}
   />

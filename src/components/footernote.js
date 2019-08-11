@@ -3,7 +3,7 @@ import styled from 'styled-components'
 
 const Company = styled.div`
   text-align: center;
-  font-size: 8px;
+  font-size: 9px;
   padding-top: 16px;
   padding-bottom: 16px;
   .author {

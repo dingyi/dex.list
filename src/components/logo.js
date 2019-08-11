@@ -5,15 +5,15 @@ import { Link } from 'gatsby'
 const Logo = () => (
   <Box
     className='logo'
-    py={15}
-    css={{
-      display: 'inline-block'
+    sx={{
+      display: 'inline-block',
+      py: 15
     }}
   >
     <Link
       to='/'
       aria-label='Submit'
-      css={{
+      sx={{
         display: 'table-cell'
       }}
     >

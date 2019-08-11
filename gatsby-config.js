@@ -1,5 +1,9 @@
 const config = require('./src/utils/siteConfig')
 
+const remarkPlugins = [
+  require('remark-slug'),
+]
+
 module.exports = {
   siteMetadata: {
     siteUrl: config.siteUrl,
@@ -11,42 +15,6 @@ module.exports = {
     organization: config.Organization,
     canonicalUrl: config.canonicalUrl,
     image: config.Image,
-    navigation: [
-      { text: 'All', href: '/' },
-      { text: '3D', href: '/3d' },
-      { text: 'Agency', href: '/agency' },
-      { text: 'Articles', href: '/article' },
-      { text: 'Backgrounds', href: '/background' },
-      { text: 'Books', href: '/book' },
-      { text: 'Colors', href: '/color' },
-      { text: 'Collections', href: '/collection' },
-      { text: 'Conferences', href: '/conference' },
-      { text: 'Design System', href: '/designsystem' },
-      { text: 'Design Tools', href: '/tool' },
-      { text: 'Fonts', href: '/font' },
-      { text: 'Gradients', href: '/gradient' },
-      { text: 'Handoff', href: '/handoff' },
-      { text: 'Icons', href: '/icon' },
-      { text: 'Illustrations', href: '/illustration' },
-      { text: 'Inspirations', href: '/inspiration' },
-      { text: 'Library', href: '/library' },
-      { text: 'Mockups', href: '/mockup' },
-      { text: 'Motion', href: '/motion' },
-      { text: 'News', href: '/news' },
-      { text: 'Newsletters', href: '/newsletter' },
-      { text: 'Online Courses', href: '/onlinecourse' },
-      { text: 'Photos', href: '/photo' },
-      { text: 'Podcasts', href: '/podcast' },
-      { text: 'Portfolios', href: '/portfolio' },
-      { text: 'Prototypes', href: '/prototype' },
-      { text: 'Resources', href: '/resource' },
-      { text: 'Sounds', href: '/sound' },
-      { text: 'Teams', href: '/team' },
-      { text: 'Video Courses', href: '/videocourse' },
-      { text: 'Web Design', href: '/web' },
-      { text: 'WeChat', href: '/wechat' },
-      { text: 'Wireframes', href: '/wireframe' },
-    ],
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -90,8 +58,17 @@ module.exports = {
         icon: `static/images${config.siteLogo}`
       },
     },
+    {
+      resolve: 'gatsby-plugin-mdx',
+      options: {
+        extensions: ['.mdx', '.md'],
+        remarkPlugins,
+      }
+    },
     `gatsby-plugin-advanced-sitemap`,
     'gatsby-plugin-offline',
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-theme-ui',
     'gatsby-plugin-netlify',
   ],
 }

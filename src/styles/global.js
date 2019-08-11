@@ -187,8 +187,6 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ul {
-    list-style-position: outside;
-    list-style-image: none;
     margin: 0;
   }
 
@@ -235,6 +233,11 @@ const GlobalStyles = createGlobalStyle`
 
   ul li {
     list-style: none;
+    a {
+      padding: 0 !important;
+      font-size: 11px !important;
+      font-weight: 700;
+    }
   }
 
   blockquote *:last-child,

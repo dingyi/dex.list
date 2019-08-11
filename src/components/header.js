@@ -4,9 +4,9 @@ import { Box } from 'rebass'
 const Header = props => (
   <Box
     as='header'
-    bg='#fdf3f6'
-    css={{
+    sx={{
       position: 'sticky',
+      bg: '#fdf3f6',
       top: '0',
       left: '0',
       width: '100%',

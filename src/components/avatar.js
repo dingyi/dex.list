@@ -3,10 +3,10 @@ import { Box } from 'rebass'
 
 const Avatar = props =>
   <Box
-    flex='0 0 32px'
-    css={{
+    sx={{
       height: '32px',
-      width: '32px'
+      width: '32px',
+      flex: '0 0 32px'
     }}
     {...props}
   />

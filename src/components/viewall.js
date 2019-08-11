@@ -6,15 +6,15 @@ const Viewall = (props) => (
   <Box
     p={2}
     width={4/4}
-    css={{
+    sx={{
       textAlign: 'center'
     }}
   >
     <Link
       as={props.to ? GLink : 'a'}
-      fontSize='10px'
-      css={{
-        '&:hover': {
+      sx={{
+        fontSize: '10px',
+        ':hover': {
           color: '#F7417A'
         }
       }}

@@ -80,5 +80,3 @@ export const query = graphql`
     }
   }
 `
-
-// traceSVG: { background: "#fdf3f6" }

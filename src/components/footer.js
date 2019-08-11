@@ -60,18 +60,6 @@ const Footer = () => (
       </Copyright>
       <Box>
         All logos© of their respective owners.
-        {/* {Links.map(props => (
-          <Item key={props.link}>
-            <a
-              href={props.link}
-              title={props.name}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              {props.name}
-            </a>
-          </Item>
-        ))} */}
       </Box>
     </Flex>
     <FooterNote />

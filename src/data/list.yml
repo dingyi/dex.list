@@ -890,7 +890,7 @@
       link: 'https://askplaybook.com/'
 
 - id: background
-  title: Background
+  title: Backgrounds
   item:
     - name: 'Bg Painter'
       logo: './images/background/BgPainter.png'
@@ -954,7 +954,7 @@
       link: 'https://womenwho.design/'
 
 - id: color
-  title: Color
+  title: Colors
   item:
     - name: 'Sip'
       price: '$9.99'
@@ -1065,7 +1065,7 @@
       link: 'https://www.getstark.co/'
 
 - id: conference
-  title: Conference
+  title: Conferences
   item:
     - name: '99U Conference'
       logo: './images/conf/99UConference.png'
@@ -1261,7 +1261,7 @@
       link: 'https://garden.zendesk.com/'
 
 - id: font
-  title: Font
+  title: Fonts
   item:
     - name: 'RightFont'
       price: '$40'
@@ -1476,7 +1476,7 @@
       link: 'http://zeplin.io/'
 
 - id: icon
-  title: Icon
+  title: Icons
   item:
     - name: 'Iconjar'
       price: '$29.99'
@@ -1557,11 +1557,11 @@
     - name: 'Remix Icon'
       logo: './images/icon/Remix.png'
       slogan: 'Open source icon library'
-      link: 'http://nounproject.com/'
+      link: 'https://remixicon.com/'
     - name: 'Round Icons'
       logo: './images/icon/RoundIcons.png'
       slogan: 'The world’s biggest icons bundle'
-      link: 'https://remixicon.com/'
+      link: 'https://roundicons.com/'
     - name: 'Shape'
       logo: './images/icon/Shape.png'
       slogan: 'Icons to React'
@@ -1765,7 +1765,7 @@
       link: 'https://raindrop.io/'
 
 - id: mockup
-  title: Mockup
+  title: Mockups
   item:
     - name: 'Angle'
       logo: './images/mockup/angle.png'
@@ -1776,7 +1776,7 @@
       slogan: 'Product Mockups Made Easy'
       link: 'https://artboard.studio/'
     - name: 'Cleanmock'
-      logo: './images/mockup/cleanmock.png'
+      logo: './images/mockup/Cleanmock.png'
       slogan: 'Stunning mockups for your design'
       link: 'https://cleanmock.com/'
     - name: 'Design Camera'
@@ -1912,7 +1912,7 @@
       link: 'https://thedesignteam.io/'
 
 - id: newsletter
-  title: Newsletter
+  title: Newsletters
   item:
     - name: 'Dense Discovery'
       logo: './images/newsletter/DenseDiscovery.png'
@@ -1960,7 +1960,7 @@
       link: 'https://anyway.fm/post/'
 
 - id: onlinecourse
-  title: Online Course
+  title: Online Courses
   item:
     - name: 'Case Study Club'
       logo: './images/onlinecourse/CaseStudyClub.png'
@@ -2012,7 +2012,7 @@
       link: 'https://www.udemy.com/courses/design/'
 
 - id: photo
-  title: Photo
+  title: Photos
   item:
     - name: '500px'
       logo: './images/photo/500px.png'
@@ -2081,7 +2081,7 @@
       link: 'https://www.gaoding.com/'
 
 - id: podcast
-  title: Podcast
+  title: Podcasts
   item:
     - name: 'Anyway FM'
       logo: './images/podcast/anyway.png'
@@ -2145,7 +2145,7 @@
       link: 'https://www.yineng.fm/'
 
 - id: portfolio
-  title: Portfolio
+  title: Portfolios
   item:
     - name: 'Semplice'
       logo: './images/portfolio/Semplice.png'
@@ -2173,7 +2173,7 @@
       link: 'https://parabolicplayground.com/'
 
 - id: prototype
-  title: Prototype
+  title: Prototypes
   item:
     - name: 'Alva'
       logo: './images/prototype/Alva.png'
@@ -2217,7 +2217,7 @@
       link: 'http://www.uxpin.com/'
 
 - id: resource
-  title: Resource
+  title: Resources
   item:
     - name: 'Bjango Resource'
       logo: './images/resource/bjango.png'
@@ -2353,7 +2353,7 @@
       link: 'https://uxplanet.org/'
 
 - id: sound
-  title: Sound
+  title: Sounds
   item:
     - name: 'Fugue'
       logo: './images/sound/Fugue.png'
@@ -2373,7 +2373,7 @@
       link: 'https://wowa.me/'
 
 - id: team
-  title: Team
+  title: Teams
   item:
     - name: 'Airbnb Design'
       logo: './images/team/airbnb.png'
@@ -2457,7 +2457,7 @@
       link: 'https://xcloud.alipay.com/'
 
 - id: tool
-  title: Design Tool
+  title: Design Tools
   item:
     - name: 'Adobe XD'
       logo: './images/tool/xd.png'
@@ -2566,7 +2566,7 @@
       link: 'https://www.photopea.com/'
 
 - id: videocourse
-  title: Video Course
+  title: Video Courses
   item:
     - name: 'Figma Tutorials'
       logo: './images/videocourse/figma.png'
@@ -2593,7 +2593,7 @@
       slogan: 'powerful visual web design tool'
       link: 'https://blocsapp.com/'
     - name: 'Code my UI'
-      logo: './images/web/Cruip.png'
+      logo: './images/web/Codemyui.png'
       slogan: 'Web Design & UI Inspiration with Code Snippets'
       link: 'https://codemyui.com/'
     - name: 'Cruip'
@@ -2650,7 +2650,7 @@
       link: 'https://www.realmacsoftware.com/rapidweaver/'
 
 - id: wireframe
-  title: Wireframe
+  title: Wireframes
   item:
     - name: 'Gridzzly'
       logo: './images/wireframe/gridzzly.png'

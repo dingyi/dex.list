@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'DEX.List - The Index page for digital designers.',
+  siteTitle: 'DEX.list - The Index page for digital designers.',
   Publisher: 'DEX Group',
   Description: 'The index page for digital designers.',
   siteUrl: 'https://dexlist.page/',

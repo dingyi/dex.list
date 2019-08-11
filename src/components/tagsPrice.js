@@ -4,9 +4,11 @@ import { Box } from 'rebass'
 const Price = props =>
   <Box
     as='span'
-    color='#F7417A'
-    fontSize='10px'
-    pl={2}
+    sx={{
+      color: '#F7417A',
+      fontSize: '10px',
+      pl: 2
+    }}
     {...props}
   />
 
