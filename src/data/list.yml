@@ -1776,7 +1776,7 @@
       slogan: 'Product Mockups Made Easy'
       link: 'https://artboard.studio/'
     - name: 'Cleanmock'
-      logo: './images/mockup/Cleanmock.png'
+      logo: './images/mockup/cleanmock.png'
       slogan: 'Stunning mockups for your design'
       link: 'https://cleanmock.com/'
     - name: 'Design Camera'
