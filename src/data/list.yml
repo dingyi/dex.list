@@ -2155,6 +2155,10 @@
       logo: './images/portfolio/UXfolio.png'
       slogan: 'UX portfolio creator site'
       link: 'https://www.uxfol.io/'
+    - name: 'ChrisCyran'
+      logo: './images/portfolio/ChrisCyran.png'
+      slogan: 'Partner, Creative at CD'
+      link: 'https://www.ccyran.com/'
     - name: 'David Pacheco'
       logo: './images/portfolio/DavidPacheco.png'
       slogan: 'A product designer at Apple'
@@ -2267,6 +2271,10 @@
       logo: './images/resource/FreebiesUI.png'
       slogan: 'Free hand-picked UI resources for designers'
       link: 'https://freebiesui.com/'
+    - name: 'Iconspace'
+      logo: './images/resource/Iconspace.png'
+      slogan: 'All Creative Resources for Designers and Developers'
+      link: 'https://iconspace.co/'
     - name: 'Interfacer'
       logo: './images/resource/interfacer.png'
       slogan: '300+ free design resources'
@@ -2303,6 +2311,10 @@
       logo: './images/resource/Muzli.png'
       slogan: 'Search by Muzli'
       link: 'https://search.muz.li/'
+    - name: 'Nice, Very Nice'
+      logo: './images/resource/Nice.png'
+      slogan: 'Design Templates for Web Developers & Designers'
+      link: 'https://niceverynice.com/'
     - name: 'OurSketch'
       logo: './images/resource/OurSketch.png'
       slogan: '一个专注于 Sketch 分享交流的互动平台'
@@ -2371,6 +2383,14 @@
       logo: './images/sound/WOWA.png'
       slogan: 'Free do whatever you want Music'
       link: 'https://wowa.me/'
+
+- id: svg
+  title: SVG
+  item:
+    - name: 'Get Waves'
+      logo: './images/svg/GetWaves.png'
+      slogan: 'Create SVG waves for your next design'
+      link: 'https://getwaves.io/'
 
 - id: team
   title: Teams
@@ -2564,6 +2584,10 @@
       logo: './images/tool/Photopea.png'
       slogan: 'Online Image Editor'
       link: 'https://www.photopea.com/'
+    - name: 'Vectornator'
+      logo: './images/tool/Vectornator.png'
+      slogan: 'Create. Collaborate. Inspire'
+      link: 'https://vectornator.io/'
 
 - id: videocourse
   title: Video Courses

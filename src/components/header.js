@@ -6,13 +6,13 @@ const Header = props => (
     as='header'
     sx={{
       position: 'sticky',
-      bg: '#fdf3f6',
       top: '0',
       left: '0',
       width: '100%',
       zIndex: '1',
       height: '48px',
-      textAlign: 'center'
+      textAlign: 'center',
+      backdropFilter: 'blur(2px)'
     }}
     {...props}
   >

@@ -12,7 +12,7 @@ import Submit from './submit'
 const Sidebar = props => (
   <Flex
     sx={{
-      maxHeight: ['100vh', '100vh'],
+      maxHeight: ['100vh'],
     }}
   >
     <Box
