@@ -1182,7 +1182,7 @@
       slogan: 'UCAN conference by Alibaba'
       link: 'http://ucan.alibabadesign.com/'
     - name: 'UX Agenda'
-      logo: './images/conf/UX Agenda.png'
+      logo: './images/conf/UXAgenda.png'
       slogan: 'All the UX conferences'
       link: 'https://uxagenda.com/'
 
