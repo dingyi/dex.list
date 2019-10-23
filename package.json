@@ -5,7 +5,7 @@
   "version": "0.1.0",
   "author": "Ding <dingyimac@gmail.com>",
   "dependencies": {
-    "@emotion/core": "10.0.21",
+    "@emotion/core": "10.0.22",
     "@mdx-js/mdx": "1.5.1",
     "@mdx-js/react": "1.5.1",
     "@rebass/space": "4.0.5",
