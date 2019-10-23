@@ -182,6 +182,11 @@
       location: '🇺🇸'
       slogan: 'Realise your digital potential'
       link: 'https://clearleft.com/'
+    - name: 'CLEVER°FRANKE'
+      logo: './images/agency/CLEVER°FRANKE.png'
+      location: '🇳🇱🇺🇸🇦🇪'
+      slogan: 'Information and data visualization agency'
+      link: 'https://www.cleverfranke.com/'
     - name: 'Code & Theory'
       logo: './images/agency/CodeandTheory.png'
       location: '🇺🇸 🇬🇧 🇵🇭'
@@ -722,6 +727,11 @@
       location: '🇳🇱'
       slogan: 'Strategy branding & e-commerce'
       link: 'https://ramotion.com/'
+    - name: 'Red Collar'
+      logo: './images/agency/RedCollar.png'
+      location: '🇺🇸'
+      slogan: 'Creative vision, technologies and digital experience'
+      link: 'https://redcollar.digital/'
     - name: 'Reflektor Digital'
       logo: './images/agency/Reflektor.png'
       location: '🇨🇦'
@@ -967,6 +977,11 @@
       location: '🇺🇸'
       slogan: 'Digital Product Studio'
       link: 'https://z1.digital/'
+    - name: 'Zacht Studios BV'
+      logo: './images/agency/ZachtStudiosBV.png'
+      location: '🇺🇸'
+      slogan: 'Presentation design consultancy'
+      link: 'https://www.zacht.studio/'
     - name: 'Zajno'
       logo: './images/agency/Zajno.png'
       location: '🇺🇸'
@@ -1061,6 +1076,10 @@
       logo: './images/book/DesignBetter.png'
       slogan: 'Books by DesignBetter'
       link: 'https://www.designbetter.co/books'
+    - name: 'Laying the Foundations'
+      logo: './images/book/LayingtheFoundations.png'
+      slogan: 'A Book About Design Systems'
+      link: 'https://designsystemfoundations.com'
     - name: 'Micro Book'
       logo: './images/book/microbook.png'
       slogan: 'micro books for busy designers'
@@ -1284,6 +1303,18 @@
       logo: './images/conf/UXAgenda.png'
       slogan: 'All the UX conferences'
       link: 'https://uxagenda.com/'
+
+- id: designplatform
+  title: Design Platform
+  item:
+    - name: 'Canva'
+      logo: './images/designplatform/canva.png'
+      slogan: 'Design anything Publish anywhere'
+      link: 'https://canva.com/'
+    - name: 'Looka'
+      logo: './images/designplatform/Looka.png'
+      slogan: 'Design your own beautiful brand'
+      link: 'https://looka.com/'
 
 - id: designsystem
   title: Design System
@@ -1825,6 +1856,10 @@
       logo: './images/illustration/unDraw.png'
       slogan: 'Open-source illustrations'
       link: 'https://undraw.co/'
+    - name: 'Vector Creator'
+      logo: './images/illustration/VectorCreator.png'
+      slogan: 'Create engaging illustrations in-browser'
+      link: 'https://icons8.com/vector-creator'
 
 - id: image
   title: Image Edit
@@ -2841,10 +2876,6 @@
       logo: './images/tool/trunk.png'
       slogan: 'Version Management for Designers'
       link: 'https://jointrunk.com/'
-    - name: 'Canva'
-      logo: './images/tool/canva.png'
-      slogan: 'Design anything Publish anywhere'
-      link: 'https://canva.com/'
     - name: 'InVision'
       logo: './images/tool/InVision.png'
       slogan: 'Digital product design workflow & collaboration'
