@@ -7568,10 +7568,10 @@ gatsby-plugin-theme-ui@0.2.43:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-theme-ui/-/gatsby-plugin-theme-ui-0.2.43.tgz#a2baa2bdba1bd923edeb63f1ebdf48c36b5c63ef"
   integrity sha512-rBQ5vlTSeuUuv929s5k6VUit7k/VXqZOFxd5FlMyR9DCo87zqEJhQ0sobkLrfhAiAo80TUyQEEA0GbLZtrb6pA==
 
-gatsby-plugin-transition-link@1.13.0:
-  version "1.13.0"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-transition-link/-/gatsby-plugin-transition-link-1.13.0.tgz#8b48884ba91d1cbe29d71df2b7a3b4dd45e0e3d4"
-  integrity sha512-zoHA8q7sfDF6wxVb+rYnupq7V10enW6zGa2yZZeJxgZcnYb9I1lYySSMJs20H3VkxJYUkH1heBg3EyOGHUrn4w==
+gatsby-plugin-transition-link@1.14.1:
+  version "1.14.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-transition-link/-/gatsby-plugin-transition-link-1.14.1.tgz#788b18a5ffc09639f5fdd2f75b5303e362e981b7"
+  integrity sha512-YjdpHgzGVbNxfUZiV5QN3cMYWZCGXrYx96BkBTIz8EjyRMdK6ncedwyJm+W5FO9yuDmvmI2dfyfZr3iLcGRuOw==
   dependencies:
     babel-preset-gatsby-package "^0.1.2"
     color-convert "^1.9.3"
