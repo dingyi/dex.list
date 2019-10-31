@@ -35,7 +35,7 @@
     "react": "16.11.0",
     "react-dom": "16.11.0",
     "react-helmet": "5.2.1",
-    "rebass": "4.0.6",
+    "rebass": "4.0.7",
     "remark-slug": "5.1.2",
     "styled-components": "4.4.0",
     "theme-ui": "0.2.46"
