@@ -37,7 +37,7 @@
     "react-helmet": "5.2.1",
     "rebass": "4.0.7",
     "remark-slug": "5.1.2",
-    "styled-components": "4.4.0",
+    "styled-components": "4.4.1",
     "theme-ui": "0.2.46"
   },
   "keywords": [
