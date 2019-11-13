@@ -22,19 +22,16 @@ module.exports = {
     'gatsby-plugin-subfont',
     'gatsby-plugin-sharp',
     'gatsby-transformer-sharp',
+    'gatsby-transformer-yaml',
+    `gatsby-plugin-advanced-sitemap`,
+    'gatsby-plugin-offline',
+    'gatsby-plugin-catch-links',
+    'gatsby-plugin-theme-ui',
     {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `data`,
         path: `./src/data/`,
-      },
-    },
-    'gatsby-transformer-yaml',
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: 'UA-101495671-2',
-        head: false
       },
     },
     {
@@ -64,10 +61,19 @@ module.exports = {
         remarkPlugins,
       }
     },
-    `gatsby-plugin-advanced-sitemap`,
-    'gatsby-plugin-offline',
-    'gatsby-plugin-catch-links',
-    'gatsby-plugin-theme-ui',
+    {
+      resolve: 'gatsby-plugin-google-analytics',
+      options: {
+        trackingId: 'UA-101495671-2',
+        head: false
+      },
+    },
+    {
+      resolve: 'gatsby-plugin-fathom',
+      options: {
+        siteId: 'EMHYBILA'
+      }
+    },
     'gatsby-plugin-netlify',
   ],
 }
