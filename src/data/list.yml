@@ -1391,6 +1391,14 @@
       logo: './images/designplatform/Looka.png'
       slogan: 'Design your own beautiful brand'
       link: 'https://looka.com/'
+    - name: 'Naker'
+      logo: './images/designplatform/Naker.png'
+      slogan: 'Transform Websites Into Interactive Experiences'
+      link: 'https://naker.io/'
+    - name: '鹿班'
+      logo: './images/designplatform/鹿班.png'
+      slogan: 'Design AI by Alibaba'
+      link: 'https://luban.taobao.com/'
 
 - id: designsystem
   title: Design System
@@ -2351,6 +2359,10 @@
       logo: './images/onlinecourse/LearnUIDesign.png'
       slogan: 'The Complete Online Video Course'
       link: 'https://learnui.design/'
+    - name: 'Meaningful Motion UI'
+      logo: './images/onlinecourse/MeaningfulMotionUI.png'
+      slogan: 'A free user interface animation course'
+      link: 'https://www.meaningfulmotionui.com/'
     - name: 'LearnSketch.com™'
       logo: './images/onlinecourse/learnsketch.png'
       slogan: 'Another Sketch course'
@@ -2375,6 +2387,10 @@
       logo: './images/onlinecourse/udemy.png'
       slogan: 'Online Design Courses'
       link: 'https://www.udemy.com/courses/design/'
+    - name: 'UX buddy'
+      logo: './images/onlinecourse/UXbuddy.png'
+      slogan: 'Get a better UX job'
+      link: 'https://uxbuddy.co/'
 
 - id: photo
   title: Photos
@@ -2532,6 +2548,10 @@
       logo: './images/portfolio/BenjaminGuedj.png'
       slogan: 'French designer'
       link: 'https://www.oursroux.com/'
+    - name: 'Bruno Arizio'
+      logo: './images/portfolio/BrunoArizio.png'
+      slogan: 'Interactive Designer'
+      link: 'https://brunoarizio.com/'
     - name: 'ChrisCyran'
       logo: './images/portfolio/ChrisCyran.png'
       slogan: 'Partner, Creative at CD'
