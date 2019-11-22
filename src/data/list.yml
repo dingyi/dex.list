@@ -942,6 +942,11 @@
       location: '🇺🇸'
       slogan: 'Creative studio'
       link: 'http://twotwentytwo.se/studio/'
+    - name: 'überdosis'
+      logo: './images/agency/überdosis.png'
+      location: '🇩🇪'
+      slogan: 'digital product design & development agency.'
+      link: 'https://ueberdosis.io/'
     - name: 'Ueno'
       logo: './images/agency/ueno.png'
       location: '🇺🇸'
@@ -2126,8 +2131,8 @@
   item:
     - name: 'Angle'
       logo: './images/mockup/angle.png'
-      slogan: 'Devices and Mockups for Sketch and XD'
-      link: 'https://designcode.io/angle/'
+      slogan: '1000 Device Mockups'
+      link: 'https://angle.sh/'
     - name: 'Artboard Studio'
       logo: './images/mockup/artboardstudio.png'
       slogan: 'Product Mockups Made Easy'
@@ -2166,7 +2171,7 @@
       link: 'https://uizard.io/'
 
 - id: motion
-  title: Motion
+  title: Motions
   item:
     - name: 'Adobe After Effects'
       price: '$20.99/m'
@@ -2584,6 +2589,10 @@
       logo: './images/portfolio/LaurianeBueb.png'
       slogan: 'freelance Set Designer & Photographer'
       link: 'https://www.laurianebueb.com/'
+    - name: 'neueform'
+      logo: './images/portfolio/neueform.png'
+      slogan: 'Andres Jasso is a designer & musician'
+      link: 'https://www.neueformbeats.com/'
     - name: 'Parabolic Playground'
       logo: './images/portfolio/ParabolicPlayground.png'
       slogan: 'Portfolio of Leszek Juraszczyk'
@@ -2692,6 +2701,10 @@
       logo: './images/resource/FigmaFreebies.png'
       slogan: 'Free UI Kits & Figma Resources'
       link: 'https://www.figmafreebies.com/'
+    - name: 'Flowkit'
+      logo: './images/resource/Flowkit.png'
+      slogan: 'Userflows right inside your favorite design tool'
+      link: 'https://useflowkit.com/'
     - name: 'Forpeople Studio'
       logo: './images/resource/ForpeopleStudio.png'
       slogan: 'High-quality resources'
