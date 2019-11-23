@@ -12,6 +12,7 @@
     "@theme-ui/sidenav": "^0.2.49",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.18.2",
+    "gatsby-cli": "^2.8.13",
     "gatsby-image": "^2.2.33",
     "gatsby-plugin-advanced-sitemap": "^1.4.5",
     "gatsby-plugin-catch-links": "^2.1.17",
