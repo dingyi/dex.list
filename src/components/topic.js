@@ -6,7 +6,7 @@ const Topic = props =>
     <Text
       sx={{
         fontSize: '10px',
-        color: 'rgba(181, 162, 168, .8)',
+        color: 'rgba(51, 20, 30, .8)',
         textTransform: 'uppercase',
         textShadow: '0 1px 0 rgba(255, 255, 255, .8)'
       }}
