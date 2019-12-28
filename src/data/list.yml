@@ -1378,6 +1378,10 @@
       logo: './images/conf/Clarity.png'
       slogan: 'Clarity- a design systems conference'
       link: 'https://www.clarityconf.com/'
+    - name: 'Design Calendar'
+      logo: './images/conf/DesignCalendar.png'
+      slogan: 'The best design events in the world'
+      link: 'https://www.designcalendar.io/'
     - name: 'DesignOps Global Conference'
       logo: './images/conf/DesignOpsConference.png'
       slogan: 'DesignOps and the impact of design​'
@@ -1719,6 +1723,10 @@
       logo: './images/font/myfonts.png'
       slogan: 'The Easiest Way to Manage Your Fonts'
       link: 'https://www.myfonts.com'
+    - name: 'Neuebel®&Mark'
+      logo: './images/font/NeuebelMark.png'
+      slogan: 'Free to Try Fonts'
+      link: 'https://www.neuebel.com/'
     - name: 'Open Foundry'
       logo: './images/font/OpenFoundry.png'
       slogan: 'A San Francisco Digital Design Studio'
@@ -1791,6 +1799,10 @@
       logo: './images/gradient/Grabient.png'
       slogan: 'Grabient tool by Unfold'
       link: 'https://grabient.com/'
+    - name: 'Gradienta'
+      logo: './images/gradient/Gradienta.png'
+      slogan: 'Multicolor Gradients'
+      link: 'https://gradienta.io/'
     - name: 'GradientMagic'
       logo: './images/gradient/GradientMagic.png'
       slogan: 'Fantastic and Unique CSS Gradients'
@@ -2265,6 +2277,10 @@
       logo: './images/motion/KiteCompositor.png'
       slogan: 'Motion DEsign for Mac'
       link: 'https://kiteapp.co/'
+    - name: 'Lottieflow'
+      logo: './images/motion/Lottieflow.png'
+      slogan: 'Lottie icon animations for Webflow'
+      link: 'https://www.lottieflow.com/'
     - name: 'Origami Studio'
       logo: './images/motion/Origami.png'
       slogan: 'A creative and digital company'
@@ -3240,6 +3256,18 @@
       logo: './images/web/RapidWeaver.png'
       slogan: 'The Best Mac Web Design Software'
       link: 'https://www.realmacsoftware.com/rapidweaver/'
+
+- id: wechat
+  title: Wechat
+  item:
+    - name: 'DPUX'
+      logo: './images/wechat/DPUX.png'
+      slogan: 'DPUX官方公众号'
+      link: ''
+    - name: 'MU设计团队'
+      logo: './images/wechat/MU设计团队.png'
+      slogan: 'MU设计团队官方公众号'
+      link: ''
 
 - id: wireframe
   title: Wireframes
