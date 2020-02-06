@@ -11,7 +11,7 @@
     "@rebass/space": "^4.0.5",
     "@theme-ui/sidenav": "^0.3.1",
     "babel-plugin-styled-components": "^1.10.7",
-    "gatsby": "^2.19.11",
+    "gatsby": "^2.19.12",
     "gatsby-image": "^2.2.40",
     "gatsby-plugin-advanced-sitemap": "^1.4.5",
     "gatsby-plugin-catch-links": "^2.1.25",
@@ -38,7 +38,7 @@
     "react-helmet": "^5.2.1",
     "rebass": "^4.0.7",
     "remark-slug": "^5.1.2",
-    "styled-components": "^5.0.0",
+    "styled-components": "^5.0.1",
     "theme-ui": "^0.3.1"
   },
   "keywords": [
